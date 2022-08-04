@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import { Link } from "react-router-dom";
 
 const Container = styled.div`
-  width: ${(props) => props.type !== "sm" && "360px"};
-  margin-bottom: ${(props) => (props.type === "sm" ? "10px" : "45px")};
+  width: ${(props) => props.type !== "sm" && "230px"};
+  margin-bottom: ${(props) => (props.type === "sm" ? "7px" : "35px")};
   cursor: pointer;
   display: ${(props) => props.type === "sm" && "flex"};
   gap: 10px;
@@ -12,7 +12,7 @@ const Container = styled.div`
 
 const Image = styled.img`
   width: 100%;
-  height: ${(props) => (props.type === "sm" ? "120px" : "202px")};
+  height: ${(props) => (props.type === "sm" ? "120px" : "170px")};
   background-color: #999;
   flex: 1;
 `;
